@@ -79,14 +79,14 @@ public class telaLoding extends javax.swing.JFrame {
 
         carregamento.setBackground(new java.awt.Color(255, 255, 255));
         carregamento.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        carregamento.setForeground(new java.awt.Color(255, 255, 255));
+        carregamento.setForeground(new java.awt.Color(105, 85, 251));
         getContentPane().add(carregamento);
         carregamento.setBounds(340, 390, 210, 40);
 
         jLabel3.setBackground(new java.awt.Color(51, 255, 255));
         jLabel3.setFont(new java.awt.Font("Arial Black", 0, 80)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(51, 153, 255));
-        jLabel3.setText("4 IRMÃOS ");
+        jLabel3.setForeground(new java.awt.Color(105, 85, 251));
+        jLabel3.setText("2 IRMÃOS ");
         getContentPane().add(jLabel3);
         jLabel3.setBounds(180, 60, 560, 90);
 

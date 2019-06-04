@@ -27,21 +27,297 @@ public class cadastroProdutos extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jPanel1 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        usuarioCadastro1 = new javax.swing.JTextField();
+        jPanel9 = new javax.swing.JPanel();
+        usuarioCadastro2 = new javax.swing.JTextField();
+        jPanel10 = new javax.swing.JPanel();
+        usuarioCadastro3 = new javax.swing.JTextField();
+        jPanel11 = new javax.swing.JPanel();
+        usuarioCadastro4 = new javax.swing.JTextField();
+        jLabel6 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        jPanel12 = new javax.swing.JPanel();
+        enviarCadastro = new javax.swing.JPanel();
+        jLabel10 = new javax.swing.JLabel();
+        enviarCadastro1 = new javax.swing.JPanel();
+        jLabel11 = new javax.swing.JLabel();
+        jPanel13 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 255, 255));
+        setMaximumSize(new java.awt.Dimension(800, 600));
+        setMinimumSize(new java.awt.Dimension(800, 600));
+        getContentPane().setLayout(null);
+
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
+        jPanel1.setLayout(null);
+
+        jLabel1.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(105, 85, 251));
+        jLabel1.setText("Cadastrar produtos");
+        jPanel1.add(jLabel1);
+        jLabel1.setBounds(120, 10, 310, 40);
+
+        jLabel3.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel3.setText("Produto:");
+        jPanel1.add(jLabel3);
+        jLabel3.setBounds(40, 90, 90, 30);
+
+        jLabel4.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel4.setText("Descrição");
+        jPanel1.add(jLabel4);
+        jLabel4.setBounds(40, 250, 120, 30);
+
+        jLabel5.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel5.setText("Lote:");
+        jPanel1.add(jLabel5);
+        jLabel5.setBounds(160, 170, 90, 30);
+
+        usuarioCadastro1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(105, 85, 251)));
+        usuarioCadastro1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                usuarioCadastro1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(usuarioCadastro1);
+        usuarioCadastro1.setBounds(40, 200, 100, 30);
+
+        jPanel9.setBackground(new java.awt.Color(105, 85, 251));
+        jPanel9.setMaximumSize(new java.awt.Dimension(4, 4));
+        jPanel9.setMinimumSize(new java.awt.Dimension(270, 4));
+
+        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
+        jPanel9.setLayout(jPanel9Layout);
+        jPanel9Layout.setHorizontalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 270, Short.MAX_VALUE)
         );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+        jPanel9Layout.setVerticalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 30, Short.MAX_VALUE)
         );
+
+        jPanel1.add(jPanel9);
+        jPanel9.setBounds(140, 200, 10, 30);
+
+        usuarioCadastro2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(105, 85, 251)));
+        usuarioCadastro2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                usuarioCadastro2ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(usuarioCadastro2);
+        usuarioCadastro2.setBounds(40, 280, 220, 110);
+
+        jPanel10.setBackground(new java.awt.Color(105, 85, 251));
+        jPanel10.setMaximumSize(new java.awt.Dimension(4, 4));
+        jPanel10.setMinimumSize(new java.awt.Dimension(270, 4));
+
+        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
+        jPanel10.setLayout(jPanel10Layout);
+        jPanel10Layout.setHorizontalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 270, Short.MAX_VALUE)
+        );
+        jPanel10Layout.setVerticalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 30, Short.MAX_VALUE)
+        );
+
+        jPanel1.add(jPanel10);
+        jPanel10.setBounds(260, 130, 10, 30);
+
+        usuarioCadastro3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(105, 85, 251)));
+        usuarioCadastro3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                usuarioCadastro3ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(usuarioCadastro3);
+        usuarioCadastro3.setBounds(160, 200, 100, 30);
+
+        jPanel11.setBackground(new java.awt.Color(105, 85, 251));
+        jPanel11.setMaximumSize(new java.awt.Dimension(4, 4));
+        jPanel11.setMinimumSize(new java.awt.Dimension(270, 4));
+
+        javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
+        jPanel11.setLayout(jPanel11Layout);
+        jPanel11Layout.setHorizontalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 270, Short.MAX_VALUE)
+        );
+        jPanel11Layout.setVerticalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 30, Short.MAX_VALUE)
+        );
+
+        jPanel1.add(jPanel11);
+        jPanel11.setBounds(260, 200, 10, 30);
+
+        usuarioCadastro4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(105, 85, 251)));
+        usuarioCadastro4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                usuarioCadastro4ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(usuarioCadastro4);
+        usuarioCadastro4.setBounds(40, 130, 220, 30);
+
+        jLabel6.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel6.setText("Setor:");
+        jPanel1.add(jLabel6);
+        jLabel6.setBounds(40, 170, 70, 30);
+
+        jPanel12.setBackground(new java.awt.Color(105, 85, 251));
+        jPanel12.setMaximumSize(new java.awt.Dimension(4, 4));
+        jPanel12.setMinimumSize(new java.awt.Dimension(270, 4));
+
+        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
+        jPanel12.setLayout(jPanel12Layout);
+        jPanel12Layout.setHorizontalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        jPanel12Layout.setVerticalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 260, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addGap(0, 210, Short.MAX_VALUE)
+                .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel12, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        jPanel1.add(jPanel2);
+        jPanel2.setBounds(290, 130, 220, 260);
+
+        enviarCadastro.setBackground(new java.awt.Color(105, 85, 251));
+        enviarCadastro.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                enviarCadastroMouseClicked(evt);
+            }
+        });
+        enviarCadastro.setLayout(null);
+
+        jLabel10.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel10.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10.setText("Imagem");
+        jLabel10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel10MouseClicked(evt);
+            }
+        });
+        enviarCadastro.add(jLabel10);
+        jLabel10.setBounds(20, 10, 80, 20);
+
+        jPanel1.add(enviarCadastro);
+        enviarCadastro.setBounds(160, 400, 110, 40);
+
+        enviarCadastro1.setBackground(new java.awt.Color(105, 85, 251));
+        enviarCadastro1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                enviarCadastro1MouseClicked(evt);
+            }
+        });
+        enviarCadastro1.setLayout(null);
+
+        jLabel11.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel11.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel11.setText("Cadastrar");
+        jLabel11.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel11MouseClicked(evt);
+            }
+        });
+        enviarCadastro1.add(jLabel11);
+        jLabel11.setBounds(10, 10, 90, 20);
+
+        jPanel1.add(enviarCadastro1);
+        enviarCadastro1.setBounds(40, 400, 110, 40);
+
+        jPanel13.setBackground(new java.awt.Color(105, 85, 251));
+        jPanel13.setMaximumSize(new java.awt.Dimension(4, 4));
+        jPanel13.setMinimumSize(new java.awt.Dimension(270, 4));
+
+        javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
+        jPanel13.setLayout(jPanel13Layout);
+        jPanel13Layout.setHorizontalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        jPanel13Layout.setVerticalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 110, Short.MAX_VALUE)
+        );
+
+        jPanel1.add(jPanel13);
+        jPanel13.setBounds(260, 280, 10, 110);
+
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(130, 80, 540, 500);
+
+        jLabel2.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 48)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(105, 85, 251));
+        jLabel2.setText("Produtos");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(380, 0, 210, 70);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void usuarioCadastro1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_usuarioCadastro1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_usuarioCadastro1ActionPerformed
+
+    private void usuarioCadastro2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_usuarioCadastro2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_usuarioCadastro2ActionPerformed
+
+    private void usuarioCadastro3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_usuarioCadastro3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_usuarioCadastro3ActionPerformed
+
+    private void usuarioCadastro4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_usuarioCadastro4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_usuarioCadastro4ActionPerformed
+
+    private void jLabel10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel10MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jLabel10MouseClicked
+
+    private void enviarCadastroMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_enviarCadastroMouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_enviarCadastroMouseClicked
+
+    private void jLabel11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel11MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jLabel11MouseClicked
+
+    private void enviarCadastro1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_enviarCadastro1MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_enviarCadastro1MouseClicked
 
     /**
      * @param args the command line arguments
@@ -79,5 +355,26 @@ public class cadastroProdutos extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel enviarCadastro;
+    private javax.swing.JPanel enviarCadastro1;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel9;
+    private javax.swing.JTextField usuarioCadastro1;
+    private javax.swing.JTextField usuarioCadastro2;
+    private javax.swing.JTextField usuarioCadastro3;
+    private javax.swing.JTextField usuarioCadastro4;
     // End of variables declaration//GEN-END:variables
 }
