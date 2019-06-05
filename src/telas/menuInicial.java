@@ -57,6 +57,7 @@ public class menuInicial extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
 
         javax.swing.GroupLayout jLayeredPane1Layout = new javax.swing.GroupLayout(jLayeredPane1);
         jLayeredPane1.setLayout(jLayeredPane1Layout);
@@ -205,7 +206,7 @@ public class menuInicial extends javax.swing.JFrame {
         enviarCadastro.setBounds(190, 370, 130, 40);
 
         getContentPane().add(cadastro);
-        cadastro.setBounds(140, 100, 510, 460);
+        cadastro.setBounds(160, 80, 510, 460);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(null);
@@ -364,6 +365,10 @@ public class menuInicial extends javax.swing.JFrame {
         getContentPane().add(jPanel6);
         jPanel6.setBounds(270, 450, 110, 40);
 
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/bk.jpg"))); // NOI18N
+        getContentPane().add(jLabel11);
+        jLabel11.setBounds(0, 120, 800, 500);
+
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
@@ -454,6 +459,7 @@ public class menuInicial extends javax.swing.JFrame {
     private javax.swing.JPanel enviarCadastro;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
